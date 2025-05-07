@@ -21,7 +21,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "hypervel/support": "^0.1",
+        "hypervel/support": "dev-edge-hyperf3.2",
         "hyperf/collection": "^3.1",
         "hyperf/macroable": "^3.1",
         "hyperf/tappable": "^3.1",
@@ -40,5 +40,11 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/support"
+        }
+    ]
 }
